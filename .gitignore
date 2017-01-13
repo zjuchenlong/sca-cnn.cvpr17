@@ -1,0 +1,8 @@
+/cnn/resnet_152_params.npz
+/utils/*.pyc
+/data/*.pyc
+/data/coco
+/exp/test_1
+
+*.pyc
+params.txt
