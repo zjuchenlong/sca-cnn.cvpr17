@@ -2,8 +2,6 @@
 
 > Source code for the paper: [SCA-CNN: Spatial and Channel-wise Attention in Convolution Networks for Imgae Captioning](https://arxiv.org/abs/1611.05594)
 
-Joint collaboration between the Zhejiang University & National University of Singapore &  Shandong University
-
 This code is modified based on two previous works [arctic-captions](https://github.com/kelvinxu/arctic-captions) and [arctic-capgen-vid](https://github.com/yaoli/arctic-capgen-vid).
 
 This code is only for two layers attention model in ResNet-152 Network for MS COCO dataset. Other networks (VGG-19) or other datasets (Flickr30k/Flickr8k) can also be used by some little modifications.
@@ -39,14 +37,12 @@ $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python sca_resnet_branch2
 
 If you found this code useful, please cite the following paper:
 
-> Chen L, Zhang H, Xiao J, et al. SCA-CNN: Spatial and Channel-wise Attention in Convolutional Networks for Image Captioning[J]. arXiv preprint arXiv:1611.05594, 2016.
 
 ```
-@article{chen2016sca,
-  title={SCA-CNN: Spatial and Channel-wise Attention in Convolutional Networks for Image Captioning},
-  author={Chen, Long and Zhang, Hanwang and Xiao, Jun and Nie, Liqiang and Shao, Jian and Chua, Tat-Seng},
-  journal={arXiv preprint arXiv:1611.05594},
-  year={2016}
+@inproceedings{chen2016sca,
+  title={SCA-CNN: Spatial and Channel-wise Attention in Convolutional Networks for Image Captioning},
+  author={Chen, Long and Zhang, Hanwang and Xiao, Jun and Nie, Liqiang and Shao, Jian and Liu, Wei and Chua, Tat-Seng},
+  booktitle={CVPR},
+  year={2017}
 }
-
 ```
